@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@actions/core": "^1.9.1"
+  },
+  "name": "writing-javascript-actions",
+  "description": "### Getting started",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oh-drift/writing-javascript-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oh-drift/writing-javascript-actions/issues"
+  },
+  "homepage": "https://github.com/oh-drift/writing-javascript-actions#readme"
+}
