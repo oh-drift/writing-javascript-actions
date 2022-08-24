@@ -2,7 +2,9 @@
 
 name: JS Actions 
 
-on: [push]
+on: 
+    pull_request:
+        types: [labeled]
 
 jobs:
   action:
@@ -13,7 +15,7 @@ jobs:
     
       - name: hello-action
         uses: ./.github/actions/hello-world
-        with:
-            first-greeting: "Learning Lab User!"
-            second-greeting: "everyone."
-            third-greeting: "again."
+
+      - name: ha-ha
+        uses: ./.github/actions/joke-action
+
